@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(white 75%, lightcyan);
+}
+.sidebar{
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Baloo Bhaina 2', cursive;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar nav{
+    padding: 24px;
+}
+.sidebar nav li{
+    list-style: none; 
+    font-size: 30px;
+    padding: 30px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(19, 234, 58);
+}
+
+.main{
+    width: 96vw;
+}
+.infoContainer{
+    height: 54vh;
+    width: 70vw;
+    margin: 146px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.infoContainer div a{
+    text-decoration: none;
+}
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif; 
+}
+.devPic img{
+    width: 24vw;
+    height: 54vh;
+}
+.hello{
+    font-size: 3em;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(45deg, #9641f1, #ec750d);
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* -moz-text-fill-color: transparent; */
+}
+.about{
+    font-size: 2.5em;
+}
+.moreabout{
+    font-size: 1.5em;
+    margin-top: 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Contact.html */
+.contactform{
+    padding: 34px;
+    padding-top: 75px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 80px;
+    
+}
+.contactform h1{
+    /* text-align: center; */
+    padding: 12px 0;
+    font-weight: bold;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+   flex-direction: row;
+}
+#form-check input{
+  width: 17px;
+  margin: 4px 0;
+}
+
+.blogItem{
+  margin: 20px;
+  font-family: 'Fira Sans', sans-serif;
+}
+.blogContainer{
+    margin-top: 45px;
+    overflow: hidden;
+    margin-left: 55px;
+}
+
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+    
+}
+p{
+    font-family: 'Roboto', sans-serif;  
+}
+
+.intro{
+    margin-top: 26px;
+    margin-left: 65px;
+}
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 10px;
+    font-size: 49px;
+    
+}
+.intro h3{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 19px;
+    font-size: 30px;
+    
+}
+.intro p{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 10px;
+
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 900;
+    margin: 5px 0;
+}
+.skill{
+    width: 300px;
+    height: 10px;
+    background-color: rgb(60, 255, 0);
+    border: 2px solid black;
+}
+.hundred{
+   width: 265px;
+   background-color: green;
+}
+.fifty{
+   width: 125px;
+   background-color: turquoise;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.projectContainer{
+    padding: 0px 0px 10px 15px;
+}
+.projectItem{
+    padding-bottom: 2px;
+}
+.projectContainer div a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebarGo{
+    transform: translate(-400px, 0);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.cross{
+    margin-left: 150px;
+}
+
+.servContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* position: relative; */
+}
+.servInfo{
+    margin: 80px;
+    background-color: hsla(318, 71%, 61%, 0.335);
+    height: 280px;
+    width: 280px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 5px;
+    padding: 50px 4px 0 4px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, .1);
+    border: 2px solid transparent;
+}
+.servInfo h2, h3{
+    margin: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.servInfo h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 41px;
+}
+/* .servContainer .servInfo:before{
+    content: '';
+    position: absolute;
+    top: 190px;
+    left: 145px;
+    height: 332px;
+    width: 289px;
+    background: paleturquoise;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    /* z-index: -1; */
+/* }
+.servInfo:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}  */
+.webdev{
+    width: 52px;
+    margin-bottom: 10px;
+}
+.webdes{
+    width: 52px;
+    margin-bottom: 10px;
+}
+.digmar{
+    width: 52px;
+    margin-bottom: 10px;
+}
+
+.skill-container{
+    padding: 1px 35px;
+    width: 600px;
+    background: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-left: 159px;
+    margin-top: -14px;
+    font-family: 'Roboto', sans-serif;
+}
+.bar{
+    margin: 10px 0;
+}
+.bar:first-child{
+    margin-top: 0px;
+}
+.percent span{
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+}
+.progress{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 6px;
+    transform: scaleX(0);
+    transform-origin: left;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05),
+                      0 1px rgba(255, 255, 255, .08);
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+.progress span{
+    height: 100%;
+    width: 80%;
+    background-image: linear-gradient(45deg, #FFE53B, #FF2525, #FF005B, #FF2CDF, #00E1FD, #0014FF);
+    /* background: purple; */
+    position: absolute;
+    border-radius: 6px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+@keyframes animate {
+    100%{
+        transform: scaleX(1);
+    }
+    
+}
+.progress.html span{
+    width: 90%;
+}
+.progress.css span{
+    width: 85%;
+}
+.progress.js span{
+    width: 50%;
+}
+.progress.php span{
+    width: 30%;
+}
+.progress.java span{
+    width: 65%;
+}
+.progress span::before{
+    position: absolute;
+    content: '';
+    right: 0;
+    top: -6px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+}
+.progress span::after{
+    position: absolute;
+    content: '80%';
+    right: 0;
+    top: -22px;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    padding: 1px 8px;
+    border-radius: 3px;
+    animation: showText 0.5s 1.5s linear forwards;
+}
+@keyframes showText {
+    100%{
+        opacity: 1;
+    }
+}
+.progress.html span::after{
+    content: '90%';
+}
+.progress.css span::after{
+    content: '85%';
+}
+.progress.js span::after{
+    content: '50%';
+}
+.progress.php span::after{
+    content: '10%';
+}
+.progress.java span::after{
+    content: '65%';
+}
+
+
+@media (max-width:1520px) {
+    /* *{
+        background-color: red;
+    } */
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic{
+        display: none;
+    }
+    /* .sidebar{
+        transform: translate(-400px, 0);
+        position: absolute;
+    } */
+    .intro{
+        margin-top: 67px;
+        margin-left: 20px;
+    }
+    .blogContainer{
+        margin-top: 34px;
+        margin-left: 25px;
+    }
+    .contactform{
+        margin-top: 34px;
+        margin-left: 25px;
+        padding-top: 0;
+    }
+    .contactform h1{
+        padding: 17px auto;
+    }
+    .contactform form div input {
+        /* width: 26vw; */
+        border-radius: 5px;
+        font-size: 20px;
+        margin: 6px 0 0 0;
+        padding: 3px;
+    }
+    #form-check input{
+        margin: 3px 0;
+    }
+    
+
+}
+@media (max-width: 1520px){
+    .contactform form div button{
+        min-width: 30vw;
+    }
+    .blogContainer div button{
+        min-width: 43vw;
+    }
+}
